@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-image: linear-gradient(to right, #1c3a6e, #1d2b50);
+}
+
+header h1 {
+    font-size: 3.5rem;
+}
+
+header p {
+    font-size: 1.25rem;
+}
+
+/* Main Section Styles */
+main section {
+    margin-bottom: 2.5rem;
+}
+
+main h2 {
+    font-size: 2.25rem;
+}
+
+/* Card Styles */
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* List Styles */
+ul.list-disc {
+    padding-left: 1rem;
+}
+
+ul.list-disc li {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1c3a6e;
+}
